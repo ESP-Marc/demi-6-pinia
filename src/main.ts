@@ -2,12 +2,6 @@
 
 import Vue from 'vue'
 import App from '@/App.vue'
-import PortalVue from 'portal-vue'
-import vuetify from '@/plugins/Vuetify'
-
-import '@/registerServiceWorker'
-
-Vue.use(PortalVue)
 
 Vue.config.productionTip = false
 
@@ -19,8 +13,6 @@ Vue.config.productionTip = false
 window.App = new Vue({
 
     store,
-    vuetify,
-
     render: h => h(App)
 
 })

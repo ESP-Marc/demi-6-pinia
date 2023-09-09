@@ -10,11 +10,6 @@ module.exports = defineConfig({
 
   parallel: 4,
 
-  transpileDependencies: [
-    'vuetify',
-    /ckeditor5-[^/\\]+[/\\]src[/\\].+\.js$/
-  ],
-
   assetsDir: 'static',
   publicPath: '/',
 
